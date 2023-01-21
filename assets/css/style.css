@@ -1,140 +1,183 @@
 .header {
-    margin: 0;
-    width: 100%;
-    
-    font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+  width: 100%;
+
+  font-family: "Cormorant Garamond", serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li {
+  font-size: 18px;
+  position: relative;
+  margin: 20px 10px 12px 10px;
+  letter-spacing: 2px;
+}
+
+.linkheader {
+  color: #7e5633;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.linkheader:hover {
+  text-decoration: none;
+}
+
+li:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(225, 159, 228);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+li:hover:after {
+  width: 100%;
+}
+
+/* panadria iamgen */
+
+.sectionone {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+      to right,
+      rgb(0 0 0 / 0.4),
+      rgb(0 0 0 / 0.5)
+    ),
+    url(../img/panaderia2.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 600px;
+  color: #fff;
+}
+
+.sectionh1 {
+  font-size: 30px;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 3px;
+}
+
+.articleone {
+  color: #7e5633;
+  margin-top: 30px;
+  font-family: "Cormorant Garamond", serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.customh2 {
+  border-bottom-style: solid;
+  border-color: #7e5633;
+  letter-spacing: 2px;
+}
+
+.customcard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.customfooter {
+  height: 200px;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  background-color: #000000;
+
+  background-size: cover;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.customfootertext {
+  padding-top: 30px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.iconscustom {
+  display: flex;
+  justify-content: center;
+}
+
+.iconscustom a {
+  padding: 0 30px 0 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.derechos {
+  padding: 10px 0 0 0;
+  font-size: 15px;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  color: white;
+}
+
+
+/* SECCION DE CURSO DE PAN */
+
+.customh4text{
+  font-size: 25px;
+ text-align: center;
+ border-bottom-style: solid;
+ letter-spacing: 2px;
+}
+.customteaching{
+  display: flex;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  color: #7e5633;
+  margin-bottom: 35px;
+  margin-top: 50px; 
   }
-  
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  li {
-    font-size: 18px;
-    position: relative;
-    margin: 20px 10px 12px 10px;
-    letter-spacing: 2px;
-    }
-  
-  .linkheader {
-    color: #7e5633;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .linkheader:hover {
-    text-decoration: none
-  }
 
-  li:after{
-    content: "";
-    position: absolute;
-    background-color: rgb(225, 159, 228);
-    height: 3px;
-    width: 0;
-    left: 0;
-    bottom: -10px;
-    transition: 0.5s;
-  }
+.customimagesteaching{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
 
-  li:hover:after{
-    width: 100%;
 
-  }
+.customimagesteaching img{
+  border-radius: 70px;
+  width: 330px;
+  height: 450px;
+  padding: 20px 30px 20px 30px;
+}
 
-  /* panadria iamgen */
+.customtexth5{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 2px;
+  color: #7e5633;
+  margin-bottom: 30px;
+}
 
-  .sectionone{
-    
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image:linear-gradient(to right, rgb(0 0 0 / .4), rgb(0 0 0 / .5)), url(../img/panaderia2.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width:100% ;
-    height: 600px;
-    color: #fff;
-  }
-
-  .sectionh1{
-    font-size: 30px;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 3px;
-
-  }
-
-  .articleone{
-    color: #7e5633;
-    margin-top: 30px;
-    font-family: 'Cormorant Garamond', serif;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-
-  }
-  .customh2{
-    border-bottom-style: solid;
-    border-color: #7e5633;
-    
-  }
-
-  .customcard{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-
-  .customfooter{
-    height: 200px;
-    width: 100%;    
-    display: block;
-    justify-content: center;
-    background-color: #000000;
-
-background-size: cover;
-margin-left: 0;
-    margin-right: 0;
-  }
-
-  .customfootertext{
-    padding-top: 30px;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 30px;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    height: 100px;
-    margin-bottom: 0;
-    width: 100%;
-    color: white;
-    
-  }
-
-  .iconscustom {
-    display: flex;
-    justify-content: center;
-    
-    
-    
-  }
-
-  .iconscustom a{
-    padding: 0 30px 0 30px;
-    font-size: 30px;
-    color: white;
-
-  }
-
-  .derechos{
-    padding: 10px 0 0 0;
-    font-size: 15px;
-    font-family: 'Cormorant Garamond', serif;
-    text-align: center;
-    color: white;
-  }
-  
+.customh5{
+  font-size: 32px;
+  text-align: center;
+}
