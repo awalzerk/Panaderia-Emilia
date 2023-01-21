@@ -90,8 +90,51 @@
   }
 
   .customfooter{
-    height: 400px;
+    height: 200px;
+    width: 100%;    
+    display: block;
+    justify-content: center;
+    background-color: #000000;
+
+background-size: cover;
+margin-left: 0;
+    margin-right: 0;
+  }
+
+  .customfootertext{
+    padding-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: bold;
     width: 100%;
-    background-color: #7e5633;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 0;
+    width: 100%;
+    color: white;
+    
+  }
+
+  .iconscustom {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+  }
+
+  .iconscustom a{
+    padding: 0 50px 0 50px;
+    font-size: 30px;
+    color: white;
 
   }
+
+  .derechos{
+    padding: 10px 0 0 0;
+    font-size: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    color: white;
+  }
+  
