@@ -134,40 +134,38 @@ li:hover:after {
   color: white;
 }
 
-
 /* SECCION DE CURSO DE PAN */
 
-.customh4text{
+.customh4text {
   font-size: 25px;
- text-align: center;
- border-bottom-style: solid;
- letter-spacing: 2px;
+  text-align: center;
+  border-bottom-style: solid;
+  letter-spacing: 2px;
 }
-.customteaching{
+.customteaching {
   display: flex;
   justify-content: center;
   font-family: "Cormorant Garamond", serif;
   color: #7e5633;
   margin-bottom: 35px;
-  margin-top: 50px; 
-  }
+  margin-top: 50px;
+}
 
-.customimagesteaching{
+.customimagesteaching {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
 
-
-.customimagesteaching img{
+.customimagesteaching img {
   border-radius: 70px;
   width: 330px;
   height: 450px;
   padding: 20px 30px 20px 30px;
 }
 
-.customtexth5{
+.customtexth5 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -177,7 +175,7 @@ li:hover:after {
   margin-bottom: 30px;
 }
 
-.customh5{
+.customh5 {
   font-size: 32px;
   text-align: center;
 }
